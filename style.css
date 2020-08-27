@@ -5,23 +5,44 @@ body {
   }
   
 h1 {
-    font-size: 1.8em;
-    padding-bottom: 8px;
+    font-size: 1.4em;
+    padding: 1.2em 0 8px 0;
 }
+
+h1:first-of-type, nav li:first-of-type {
+    padding-top: 20px;
+  }
   
 h2 {
     font-size: 1.8em;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
 }
 
 p {
-    padding-bottom: 8px;
+    padding-bottom: 13px;
 }
 
 a {
     color:#ffa62b;
     text-decoration: none;
 }
+
+.img-left, .img-right {
+    border: 2px solid black;
+}
+
+.img-right {
+    float: right;
+    max-height: 50%;
+    min-width: 50%;
+}
+
+.img-left {
+    float: left;
+}
+
+
+
 .wrapper {
     display: flex;  
     flex-flow: row wrap;
