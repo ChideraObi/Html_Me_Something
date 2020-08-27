@@ -60,11 +60,11 @@ a {
 
 .wrapper {
     margin-top: 2em;
+    margin: auto;
     width: 80%;
     display: flex;  
     flex-flow: row wrap;
     border: 1px solid black;
-    justify-content: center; /* this isn't working...*/
 }
 
 .wrapper > * {
@@ -95,6 +95,11 @@ a {
 .aside-1, .nav {
     background: #dfd4cd;
     margin: 0px;
+}
+
+nav {
+    position: sticky;
+    top: 10px;
 }
 
 nav a {
