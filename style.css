@@ -16,8 +16,8 @@ h1 {
     padding: 1.2em 0 0 0;
 }
 
-h1:first-of-type, nav li:first-of-type {
-    padding-top: 20px;
+h1:first-of-type {
+    padding-top: 10px;
   }
 
 nav h1 {
@@ -25,11 +25,16 @@ nav h1 {
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
+    padding-top: 20px;
 }
-  
+
+.subheader {
+    font-size: .7em;
+}
+
 h2 {
     font-size: 1.8em;
-    padding-bottom: 6px;
+    padding: 9px 0px;
 }
 
 p {
@@ -41,6 +46,10 @@ a {
     text-decoration: none;
 }
 
+.header-highlight {
+    color: #ffa62b;
+}
+
 .img-left, .img-right {
     border: 1px solid black;
 }
@@ -48,9 +57,6 @@ a {
 .img-right {
     float: right;
     margin-left: 15px;
-    /*  max-height: 50%;
-    min-width: 50%;
-    */
 }
 
 .img-left {
@@ -61,7 +67,7 @@ a {
 .wrapper {
     margin-top: 2em;
     margin: auto;
-    width: 80%;
+    width: 60%;
     display: flex;  
     flex-flow: row wrap;
     border: 1px solid black;
@@ -99,8 +105,13 @@ a {
 
 nav {
     position: sticky;
-    top: 10px;
+    line-height: 1.6em;
+    top: 40px;
 }
+
+nav li:first-of-type {
+    padding-top: 20px;
+  }
 
 nav a {
     display: block;
