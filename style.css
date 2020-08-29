@@ -64,7 +64,17 @@ a {
     margin-right: 15px;
 }
 
-.wrapper {
+#legal {
+    font-weight: bold;
+    text-align: center;
+  }
+
+#legal a {
+    font-weight: bolder;
+    color:#1b4965;
+}
+
+  .wrapper {
     margin-top: 2em;
     margin: auto;
     width: 60%;
@@ -91,8 +101,7 @@ a {
     text-align: center;
 }
 
-.main {
-    text-align: left;
+.main{
     background:#ede7e3;
     line-height: 1.6;
     padding: 30px;
