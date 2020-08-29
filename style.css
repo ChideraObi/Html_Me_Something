@@ -22,7 +22,7 @@ h1:first-of-type {
 
 nav h1 {
     color: #1b4965;
-    font-weight: bold;
+    font-weight: bolder;
     text-transform: uppercase;
     text-align: center;
     padding-top: 20px;
