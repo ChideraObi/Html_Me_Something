@@ -69,7 +69,7 @@ a {
     text-align: center;
   }
 
-#legal a {
+.main a {
     font-weight: bolder;
     color:#1b4965;
 }
